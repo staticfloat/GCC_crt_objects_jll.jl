@@ -1,10 +1,10 @@
 name = "GCC_crt_objects"
-version = "9.1.0"
+version = "9.1.1"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
 [[builds]]
-name = "crt_objects"
+name = "GCC_crt_objects"
 platform = "aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64"
 deps = []
 lazy = "false"
@@ -32,18 +32,18 @@ src_version = "9.1.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:60b152d12d84df566301dc9cce7bf473fde03254"
+    treehash = "sha1:9eb591cb0e5b7c31edd6acef873f54d3f9d50df6"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:87679005028c2eca94d74350fd1f09e94348cbf8751bb0b37d196aae09910057"
-        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-build_log-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:0990aff989758db21829bddc42bd2e904b4a25d1ebfc0396922e257071352fc4"
+        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.1-GCC/GCC_crt_objects-build_log-v9.1.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:d487dd591dc7734f0ff905d70a532ff0305e35d4"
+    treehash = "sha1:00b0b0436e7116edcb2d6d22d8dd3c143037a14d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:13adbdb4476461ad396fd7dbd8b58f56f510373ef30562d7c76d51fbe1988643"
-        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-extract_log-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:0ec72ad8393e2eefeaec92631367dbb09386b2419bd7b06938f23ba25f88d3dd"
+        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.1-GCC/GCC_crt_objects-extract_log-v9.1.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "crtbegin_o"
@@ -77,10 +77,10 @@ src_version = "9.1.0"
     treehash = "sha1:0c42173853126966a9306a1b3cbc356ed4bc66d2"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:f9a3d6d7070a99e2583cb0cbf448e8c32375096d410d9b1aff0cc036fb085ae8"
-        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:6f0e733dfa07a46739749eb2aec413f849b5adbc471081a01e396f7586e16428"
+        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.1-GCC/GCC_crt_objects-v9.1.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
-name = "crt_objects"
+name = "GCC_crt_objects"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64"
 deps = []
 lazy = "false"
@@ -108,18 +108,18 @@ src_version = "9.1.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:3832fa2e7c9f18b441e4516282468f8265a62a31"
+    treehash = "sha1:381d839a27b773b4de28751bf0f5f48a3564c7ae"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:05d72a2aa90af18b64186305c8d8d3f17b65ad0e71b3a07df881c780711b0c0c"
-        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-build_log-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:b2fb8aff6d613302ad8e9b6dc6fde217c1c86dcc516051ccae7c6d491148db92"
+        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.1-GCC/GCC_crt_objects-build_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:880ed3047196110577e91fea1196469250ad878f"
+    treehash = "sha1:98a37a72ce0f0a58ee22b67bee578eb54ca51860"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fd4cb93281823f2c31222de2413e734328b6d1b76fe03293e6c2fcfd639736fe"
-        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-extract_log-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:7a065d6dbdb302041860afc4e4288048d8ca0ce196d8f50731cb1fc42a874507"
+        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.1-GCC/GCC_crt_objects-extract_log-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "crtbegin_o"
@@ -153,5 +153,5 @@ src_version = "9.1.0"
     treehash = "sha1:1c81bcc81c343f22609d884aa7e941806c15cf36"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:76cf812c11aa30f6ef13016a96c2d0b634ee0f5787289211e81e7ffd9a7ca616"
-        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:1c789e6b68d15bc8d4af28b00c493c3ddd0740f3ba21db9afcba3e465690f7ef"
+        url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.1-GCC/GCC_crt_objects-v9.1.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
