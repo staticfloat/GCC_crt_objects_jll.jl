@@ -1,0 +1,78 @@
+[[crt_objects]]
+arch = "aarch64"
+git-tree-sha1 = "0c42173853126966a9306a1b3cbc356ed4bc66d2"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[crt_objects.download]]
+    sha256 = "f9a3d6d7070a99e2583cb0cbf448e8c32375096d410d9b1aff0cc036fb085ae8"
+    url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[crt_objects]]
+arch = "x86_64"
+git-tree-sha1 = "1c81bcc81c343f22609d884aa7e941806c15cf36"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[crt_objects.download]]
+    sha256 = "76cf812c11aa30f6ef13016a96c2d0b634ee0f5787289211e81e7ffd9a7ca616"
+    url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+
+[[crt_objects-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "60b152d12d84df566301dc9cce7bf473fde03254"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[crt_objects-build_log.download]]
+    sha256 = "87679005028c2eca94d74350fd1f09e94348cbf8751bb0b37d196aae09910057"
+    url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-build_log-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[crt_objects-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "3832fa2e7c9f18b441e4516282468f8265a62a31"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[crt_objects-build_log.download]]
+    sha256 = "05d72a2aa90af18b64186305c8d8d3f17b65ad0e71b3a07df881c780711b0c0c"
+    url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-build_log-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+
+[[crt_objects-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "d487dd591dc7734f0ff905d70a532ff0305e35d4"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[crt_objects-extract_log.download]]
+    sha256 = "13adbdb4476461ad396fd7dbd8b58f56f510373ef30562d7c76d51fbe1988643"
+    url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-extract_log-v9.1.0-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[crt_objects-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "880ed3047196110577e91fea1196469250ad878f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[crt_objects-extract_log.download]]
+    sha256 = "fd4cb93281823f2c31222de2413e734328b6d1b76fe03293e6c2fcfd639736fe"
+    url = "https://github.com/staticfloat/GCC_crt_objects_jll.jl/releases/download/v9.1.0-GCC/crt_objects-extract_log-v9.1.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
